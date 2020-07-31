@@ -10,7 +10,7 @@ router.get('/', (req, res) => {
     }
     res.sendFile("111.png", options)
 })
-router.use('/Sheih', Shieh);
+router.use('/Shieh', Shieh);
 router.use('/Alice', Alice);
 router.use('/Bob', Bob);
 
