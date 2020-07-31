@@ -8,7 +8,7 @@ router.get('/', (req, res) => {
         root: __dirname,
         dotfiles: 'deny'
     }
-    res.sendFile("index.html", options)
+    res.sendFile("111.png", options)
 })
 router.use('/Fisheep', Fisheep);
 router.use('/Alice', Alice);
